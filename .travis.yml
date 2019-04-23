@@ -1,0 +1,17 @@
+dist: xenial
+language: node_js
+node_js:
+  - 4.8
+  - 5.7
+  - 6
+  - 8
+  - 10
+  - 11
+
+matrix:
+  allow_failures:
+    - node_js: 4.8
+    - node_js: 5.7
+
+cache: yarn
+
