@@ -23,5 +23,4 @@ function query(element, elementQuery) {
     .value();
 }
 
-export {query};
 export default query;
