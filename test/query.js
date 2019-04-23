@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 import lodash from 'lodash';
 import { assert } from 'chai';
 
