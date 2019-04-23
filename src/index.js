@@ -17,9 +17,7 @@ function query(element, elementQuery) {
 
   return lodash
     .chain(element.content)
-    .map((nestedElement) => {
-      return query(nestedElement, elementQuery);
-    })
+    .map(nestedElement => query(nestedElement, elementQuery))
     .flatten()
     .concat(results)
     .value();
