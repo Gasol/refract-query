@@ -10,8 +10,7 @@
     "test": "npm run lint && mocha --compilers js:babel-core/register -R spec --recursive"
   },
   "engines": {
-    "node": "5.1.x",
-    "npm": "3.3.x"
+    "node": "4.8.0 || ^5.7.0 || ^6.2.2 || >=8.0.0"
   },
   "repository": {
     "type": "git",
