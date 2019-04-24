@@ -1,6 +1,6 @@
-node_modules
-lib
-*.swp
-*.swo
 *.DS_Store
+*.swo
+*.swp
+lib
+node_modules
 npm-debug.log
