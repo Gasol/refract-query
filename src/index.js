@@ -13,7 +13,7 @@ function query(element, elementQuery) {
     return [];
   }
 
-  const results = lodash.where(element.content, elementQuery);
+  const results = lodash.filter(element.content, elementQuery);
 
   return lodash
     .chain(element.content)
