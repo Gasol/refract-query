@@ -1,7 +1,7 @@
 {
   "name": "refract-query",
   "version": "0.1.0",
-  "description": "",
+  "description": "Query the refract structures without traversal",
   "main": "./lib",
   "scripts": {
     "prepublish": "not-in-install && npm run build || :",
