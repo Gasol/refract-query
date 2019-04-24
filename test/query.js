@@ -1,5 +1,6 @@
+/* eslint-disable global-require */
 import lodash from 'lodash';
-import {assert} from 'chai';
+import { assert } from 'chai';
 
 import query from '../src/index';
 

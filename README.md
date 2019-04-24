@@ -1,5 +1,7 @@
 # Refract Query
 
+[![Build Status](https://travis-ci.org/Gasol/refract-query.svg?branch=master)](https://travis-ci.org/Gasol/refract-query)
+
 ## Usage
 
 ```JavaScript

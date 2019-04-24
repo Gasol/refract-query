@@ -7,15 +7,14 @@
     "prepublish": "not-in-install && npm run build || :",
     "lint": "eslint src test",
     "build": "babel src/ --out-dir lib/",
-    "test": "npm run lint && mocha --compilers js:babel-core/register -R spec --recursive"
+    "test": "npm run lint && mocha --require babel-core/register -R spec --recursive"
   },
   "engines": {
-    "node": "5.1.x",
-    "npm": "3.3.x"
+    "node": "4.8.0 || ^5.7.0 || ^6.2.2 || >=8.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:apiaryio/refract-query.git"
+    "url": "https://github.com/Gasol/refract-query"
   },
   "author": "Apiary Inc. <support@apiary.io>",
   "license": "MIT",
@@ -28,9 +27,11 @@
     "babel-preset-stage-0": "^6.1.18",
     "babelify": "",
     "chai": "",
-    "eslint": "",
-    "eslint-config-airbnb": "",
-    "eslint-plugin-react": "^3.10.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
     "in-publish": "",
     "mocha": ""
   },
