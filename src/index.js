@@ -24,3 +24,4 @@ function query(element, elementQuery) {
 }
 
 export default query;
+module.exports = query;
