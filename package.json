@@ -1,6 +1,6 @@
 {
   "name": "@gasolwu/refract-query",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Query the refract structures without traversal",
   "main": "./lib",
   "scripts": {
