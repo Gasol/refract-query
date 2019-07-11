@@ -1,1 +1,6 @@
+*.tgz
+.eslintrc.js
+.babelrc
 .travis.yml
+/src
+/test
